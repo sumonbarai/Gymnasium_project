@@ -1,6 +1,6 @@
  /* Extra small devices (portrait phones, less than 576px) */
  @media (max-width: 575.98px) {
-     
+    
      /* header */
      .main_menu .left_part {
         width: 160px;
@@ -60,13 +60,13 @@
     }
      /* membership */
      .membership .package .feature ul {
-         padding: 0;
+         padding: 10px;
      }
      .membership .package .feature ul li {
-        line-height: 25px;
+        line-height: 35px;
     }
     .membership .package .price p {
-        padding: 0px 0;
+        padding: 15px 0;
     }
     .membership .package .price p span {
         font-size: 40px;
@@ -74,9 +74,16 @@
      /* team */
      .team {
         padding-top: 50px;
-        padding-bottom: 30px;
-        
+        padding-bottom: 30px; 
     }
+
+    .team_slider .slick-prev {
+        left: 0px;
+    }
+    .team_slider .slick-next {
+        right: 0px;
+    }
+
      /* classes */
      .classes {;
         padding-top: 38px;
