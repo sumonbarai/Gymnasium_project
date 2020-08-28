@@ -1,0 +1,379 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+     
+     /* header */
+     .main_menu .left_part {
+        width: 160px;
+        height: 60px;
+        margin-left: 25px;
+    }
+     .banner_slider .banner_items .banner_text span {
+         padding-top: 180px;
+     }
+
+     .main_menu .left_part {
+         position: relative;
+     }
+
+     .main_menu {
+         top: 0;
+         background: rgb(53, 53, 53);
+     }
+
+     .navbar-toggler:not(:disabled):not(.disabled) {
+         background-color: #ffffff87;
+         margin-right: 20px;
+     }
+
+     .main_menu .fa-bars {
+         color: #000;
+         font-size: 28px;
+         line-height: 30px;
+     }
+
+     .main_menu .navbar-nav {
+         text-align: center;
+     }
+
+     .main_menu ul li a {
+         display: block;
+     }
+     .banner_slider .banner_items .banner_text .banner_btn {
+        padding-top: 24px;
+        padding-bottom: 70px;
+    }
+     /* about */
+     .about {
+        padding: 25px 0;
+    }
+     .about .vedio {
+         margin-top: 35px;
+     }
+
+     .about .text p {
+         line-height: 20px;
+     }
+     /* gallary */
+     .gallery .gallery_bg .images{
+        max-width: 70%;
+        margin: 0 auto;
+    }
+     /* membership */
+     .membership .package .feature ul {
+         padding: 0;
+     }
+     .membership .package .feature ul li {
+        line-height: 25px;
+    }
+    .membership .package .price p {
+        padding: 0px 0;
+    }
+    .membership .package .price p span {
+        font-size: 40px;
+    }
+     /* team */
+     .team {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        
+    }
+     /* classes */
+     .classes {;
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+     .colorful-tab-menu {
+        flex-direction: row;
+    }
+     .colorful-tab-content.active {
+         overflow: hidden;
+     }
+
+     .classes .colorful-tab-container ul {
+         margin-left: -5px;
+         margin-right: -10px;
+     }
+
+     .classes .colorful-tab-container ul li {
+         width: calc(50% - 7.5px);
+     }
+
+     .classes .colorful-tab-container ul li:nth-child(5n) {
+         margin-right: 5px;
+     }
+
+     .classes .sponcer_slider {
+         display: none;
+     }
+
+     /* footer  */
+     .footer .shedules{
+        max-width: 297px;
+        margin: auto;
+    }
+     .footer .shedules h4 {
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .footer .Twetter_Feed h4 {
+        padding: 30px 0;
+        text-align: center;
+    }
+     .footer .Twetter_Feed .twet {
+         margin-top: 0px;
+     }
+     .footer .Flickr_photos h4 {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .footer .Flickr_photos .all_photos .photo {
+        width: calc(22% - 2.5px);
+        height: 148px;
+        margin-right: 17px;
+        margin-bottom: -28px;
+    }
+
+    .footer .contact h4 {
+        padding: 8px 0;
+        text-align: center;
+    }
+     .footer .contact .location {
+         margin-top: 20px;
+     }
+     .footer .social_icons{
+        text-align: center;
+        margin-top: 5px;
+    }
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+
+     /* header */
+     .main_menu .left_part {
+        width: 160px;
+        height: 60px;
+    }
+     .banner_slider .banner_items .banner_text span {
+         padding-top: 180px;
+     }
+
+     .main_menu .left_part {
+         position: relative;
+     }
+
+     .main_menu {
+         top: 0;
+         background: rgb(53, 53, 53);
+     }
+
+     .navbar-toggler:not(:disabled):not(.disabled) {
+         background-color: #ffffff87;
+     }
+
+     .main_menu .fa-bars {
+         color: #000;
+         font-size: 28px;
+         line-height: 30px;
+     }
+
+     .main_menu .navbar-nav {
+         text-align: center;
+     }
+
+     .main_menu ul li a {
+         display: block;
+     }
+     .banner_slider .banner_items .banner_text .banner_btn {
+        padding-top: 24px;
+        padding-bottom: 70px;
+    }
+     /* about */
+     .about {
+        padding: 25px 0;
+    }
+     .about .vedio {
+         margin-top: 35px;
+     }
+
+     .about .text p {
+         line-height: 20px;
+     }
+     /* gallary */
+     .gallery .gallery_bg .images{
+        max-width: 70%;
+        margin: 0 auto;
+    }
+     /* membership */
+     .membership .package .feature ul {
+         padding: 0;
+     }
+     .membership .package .feature ul li {
+        line-height: 25px;
+    }
+    .membership .package .price p {
+        padding: 0px 0;
+    }
+    .membership .package .price p span {
+        font-size: 40px;
+    }
+     /* team */
+     .team {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        
+    }
+     /* classes */
+     .classes {;
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+     .colorful-tab-menu {
+        flex-direction: row;
+    }
+     .colorful-tab-content.active {
+         overflow: hidden;
+     }
+
+     .classes .colorful-tab-container ul {
+         margin-left: -5px;
+         margin-right: -10px;
+     }
+
+     .classes .colorful-tab-container ul li {
+         width: calc(50% - 7.5px);
+     }
+
+     .classes .colorful-tab-container ul li:nth-child(5n) {
+         margin-right: 5px;
+     }
+
+     .classes .sponcer_slider {
+         display: none;
+     }
+
+     /* footer  */
+     .footer .shedules{
+        max-width: 297px;
+        margin: auto;
+    }
+     .footer .shedules h4 {
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .footer .Twetter_Feed h4 {
+        padding: 30px 0;
+        text-align: center;
+    }
+     .footer .Twetter_Feed .twet {
+         margin-top: 0px;
+     }
+     .footer .Flickr_photos h4 {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .footer .Flickr_photos .all_photos .photo {
+        width: calc(22% - 2.5px);
+        height: 148px;
+        margin-right: 17px;
+        margin-bottom: -28px;
+    }
+
+    .footer .contact h4 {
+        padding: 8px 0;
+        text-align: center;
+    }
+     .footer .contact .location {
+         margin-top: 20px;
+     }
+     .footer .social_icons{
+        text-align: center;
+        margin-top: 5px;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+
+     /* header */
+     .banner_slider .banner_items .banner_text span {
+         padding-top: 180px;
+     }
+
+     .main_menu .left_part {
+         position: relative;
+     }
+
+     .main_menu {
+         top: 0;
+         background: rgb(53, 53, 53);
+     }
+
+     .navbar-toggler:not(:disabled):not(.disabled) {
+         background-color: #ffffff87;
+     }
+
+     .main_menu .fa-bars {
+         color: #000;
+         font-size: 28px;
+         line-height: 30px;
+     }
+
+     .main_menu .navbar-nav {
+         text-align: center;
+     }
+
+     .main_menu ul li a {
+         display: block;
+     }
+
+     /* about */
+     .about .vedio {
+         margin-top: 103px;
+     }
+
+     .about .text p {
+         line-height: 20px;
+     }
+
+     /* membership */
+     .membership .package .feature ul {
+         padding: 0;
+     }
+
+     /* classes */
+     .colorful-tab-content.active {
+         overflow: hidden;
+     }
+
+     .classes .colorful-tab-container ul {
+         margin-left: -5px;
+         margin-right: -10px;
+     }
+
+     .classes .colorful-tab-container ul li {
+         width: calc(25% - 7.5px);
+     }
+
+     .classes .colorful-tab-container ul li:nth-child(5n) {
+         margin-right: 5px;
+     }
+
+     .classes .sponcer_slider {
+         display: none;
+     }
+
+     /* footer  */
+     .footer .Twetter_Feed .twet {
+         margin-top: 20px;
+     }
+
+     .footer .contact .location {
+         margin-top: 20px;
+     }
+
+ }
