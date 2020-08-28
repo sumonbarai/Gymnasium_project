@@ -1050,6 +1050,7 @@ footer
     padding: 20px;
     color: #f1f1f1;
     font-size: 14px;
+    margin-bottom:0;
 }
 .footer .copyright p a{
     color: #e23e38;
